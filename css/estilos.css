@@ -1,0 +1,59 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+body {
+    background: gray;
+    color: white;
+}
+
+header {
+    height: 100px;
+    background: #000;
+}
+
+.contenedor {
+    width: 1200px;
+    border: 1px solid #000000;
+    margin: 0 auto;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+}
+
+.menu nav {
+    margin: 0.2em;
+    border-style: double;
+    border-color: white;
+    float: right;
+    width: 100px;
+    height: 25px;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+
+.mayor {
+    height: 200px;
+    width: 100%;
+}
+
+.contenedorimagenes {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+main h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.contenedorimagenes img {
+    height: 200px;
+    width: 400px;
+    background-color: gray;
+}
